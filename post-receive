@@ -1,0 +1,4 @@
+#!/bin/sh
+read i
+echo $i > pushinfo
+"$KUDU_EXE" "$KUDU_APPPATH" "$KUDU_MSBUILD" "$KUDU_DEPLOYER"
